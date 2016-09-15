@@ -1,0 +1,52 @@
+{
+  "name": "flish",
+  "version": "0.1.0",
+  "description": "Flash messages made simple",
+  "author": "Ryan Van Etten",
+  "license": "MIT",
+  "homepage": "https://github.com/ryanve/flish#readme",
+  "main": "flish.js",
+  "scripts": {
+    "pretest": "jshint flish.js && jshint test.js",
+    "test": "node test.js"
+  },
+  "keywords": [
+    "flash-message",
+    "notification",
+    "notifications",
+    "messages",
+    "message",
+    "notices",
+    "notice",
+    "status",
+    "flash",
+    "flush",
+    "queue",
+    "simple",
+    "server",
+    "browser"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryanve/flish.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ryanve/flish/issues"
+  },
+  "devDependencies": {
+    "jshint": "^2.9.3"
+  },
+  "jshintConfig": {
+    "asi": true,
+    "boss": true,
+    "browser": true,
+    "eqnull": true,
+    "expr": true,
+    "supernew": true,
+    "latedef": "nofunc",
+    "maxerr": 5,
+    "node": true,
+    "undef": true,
+    "unused": true
+  }
+}
