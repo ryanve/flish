@@ -24,7 +24,8 @@
   }
 
   model.send = function() {
-    this._handler(this.splice(0, 1/0))
+    var batch = this.splice(0, 1/0)
+    this._handler(batch)
     return this
   }
 
